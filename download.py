@@ -100,5 +100,5 @@ def download_songs_from_csv(csv_file):
             download_video_as_mp3(youtube_url, artist, title)
 
 if __name__ == "__main__":
-    csv_file = "restante.csv"  # Nome do arquivo CSV
+    csv_file = "all_songs.csv"  # Nome do arquivo CSV
     download_songs_from_csv(csv_file)
